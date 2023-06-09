@@ -1,3 +1,3 @@
-var d = new Date();
-var dateHeader = document.getElementById("dateHeader");
-dateHeader.textContent = "Today's date is " + d;
+const datetimeElement = document.getElementById("datetime");
+const currentDate = new Date();
+datetimeElement.textContent = "Current Date and Time: " + currentDate;
